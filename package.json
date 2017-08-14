@@ -3,7 +3,7 @@
     "version": "0.0.1",
     "private": true,
     "scripts": {
-        "start": "node server/appServer.bundle.js",
+        "start": "node server/index.js",
         "build:client": "webpack",
         "build:server": "webpack --config webpack.server.config.js"
     },
