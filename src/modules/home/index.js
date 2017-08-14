@@ -1,10 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { StaticRouter } from 'react-router'
-import App from './App';
+
+const Home = () => {
+  return (
+    <div>
+      <h1>React Home</h1>
+    </div>
+  );
+};
 
 ReactDOM.render((
-  <StaticRouter>
-    <App />
-  </StaticRouter>
+  <Home />
 ), document.getElementById('root'));

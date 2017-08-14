@@ -3,12 +3,14 @@ const webpack = require('webpack');
 
 module.exports = {  
   entry: {
-    app: path.resolve(__dirname, 'src/index.js'),
+    home: path.resolve(__dirname, 'src/modules/home/index.js'),
+    login: path.resolve(__dirname, 'src/modules/home/Login.js'),
+    register: path.resolve(__dirname, 'src/modules/home/Register.js'),
   },
 
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: '[name].js',
+    filename: '[name].bundle.js',
   },
 
   plugins: [],
