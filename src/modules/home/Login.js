@@ -5,10 +5,10 @@ const Login = () => {
   return (
     <div>
       <h1>登录</h1>
-      <form>
-        <input type="text" name="username" placeholder="用户名"/>
-        <input type="text" name="password" placeholder="密码"/>
-        <button type="submit" value="登录">登录</button>
+      <form action="/login">
+        <input type="text" name="username" placeholder="用户名"/><br />
+        <input type="password" name="password" placeholder="密码"/><br />
+        <button type="submit">登录</button>
       </form>
     </div>
   );
